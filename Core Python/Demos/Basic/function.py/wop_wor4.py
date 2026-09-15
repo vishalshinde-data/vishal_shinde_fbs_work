@@ -1,0 +1,2 @@
+#check armstrong number.
+

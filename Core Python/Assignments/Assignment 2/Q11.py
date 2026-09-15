@@ -1,4 +1,5 @@
-# Write a program to accept an integer amount from user and tell minimum numbers of notes needed for representing that amount.
+# Write a program to accept an integer amount from user and 
+#tell minimum numbers of notes needed for representing that amount.
 
 amount = int(input('Enter amount:'))
 
