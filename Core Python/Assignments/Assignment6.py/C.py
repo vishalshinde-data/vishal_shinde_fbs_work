@@ -1,8 +1,8 @@
-n = 4
-for i in range(1,5):
-    for j in range(1,n-i):
-        print(' ', end = ' ')
-    for j in range(1, 6-i):
-        print(j, end = ' ')
-     
-    print()        
+for i in range(4):
+    print(' ' * (3-i), end = ' ')
+    num = 1
+
+    for j in range(i+1):
+        print(num, end = ' ')
+        num = num * (i-j) // (j+1)
+    print()    
