@@ -1,4 +1,4 @@
-#
+#Armstrong
 num = int(input('enter the number:'))
 
 temp = num
