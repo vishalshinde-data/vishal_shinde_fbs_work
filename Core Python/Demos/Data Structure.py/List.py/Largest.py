@@ -11,7 +11,6 @@ li = [40, 50, 30, 20, 10, 60]
 
 max = li[0]
 for ind in range(1, len(li)):
-    if(li[ind] > max ):
+    if(li[ind] > max):
         max = li[ind]
-
-print('Maximum number:', max)
+print("Maximum number:", max)        
