@@ -6,9 +6,8 @@ smallest = numbers[0]
 
 for i in numbers:
     if(i < smallest):
-        smallest = i
-
-
+        smallest =i
+        
 print('smallest number:', smallest)        
 
 #find the largest number.
@@ -21,4 +20,4 @@ for i in numbers:
     if(i > largest):
         largest = i
 
-print('largest number:', largest===)        
+print('largest number:', largest)        

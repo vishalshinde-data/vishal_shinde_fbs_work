@@ -30,7 +30,7 @@ ele = 20
 res = linearsearch(li, ele)
 
 if(res != -1):
-    print(f"{ele} is present in index{res}.")
+    print(f"{ele} is present in index {res}.")
 else:
     print(f"{ele} is not present in list")    
 

@@ -1,7 +1,7 @@
 #find the sum of numbers from 1 to 100.
 
-n = int(input('enter number:'))
+num = int(input("Enter the number:"))
 sum = 0
-for i in range(1, n+1):
-    sum = sum + i
-print('Addition:',sum)    
+for i in range(1, num+1):
+    sum += i
+print("Sum is:", sum)    
