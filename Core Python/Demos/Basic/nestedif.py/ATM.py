@@ -1,4 +1,4 @@
-#create a simple atm prgram using nested if.
+#create a simple atm program using nested if.
 
 balance = int(input('enter your balance:'))
 pin = int(input('enter PIN:'))
