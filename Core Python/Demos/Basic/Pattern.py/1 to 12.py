@@ -1,9 +1,9 @@
 num = 1
 for i in range(4):
     for j in range(3):
-        print(num, end = ' ')
+        print(num, end =' ')
         num += 1
-    print()
+    print()    
 
 num = 12
 for i in range(4):
