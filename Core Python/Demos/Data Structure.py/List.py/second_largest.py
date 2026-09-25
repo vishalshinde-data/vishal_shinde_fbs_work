@@ -9,3 +9,7 @@ for ind in range(1, len(li)):
         smax = li[ind]
 print("Maximum number:", max)
 print("Second Minimum number:", smax)            
+
+
+
+

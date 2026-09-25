@@ -34,3 +34,24 @@ if(res != -1):
 else:
     print(f"{ele} is not present in list")    
 
+
+
+
+
+
+def linearsearch(li, ser_ele):
+    size = len(li)
+    for i in range(0, size):
+        if(li[i] == ser_ele):
+            return 0
+    else:
+        return -1
+
+li = [10, 20, 30, 40, 50, 60]
+ele = int(input("Enter the number:"))
+res = linearsearch(li, ele)
+
+if(res != -1):
+    print(f"{ele} is present in index {ele}.")
+else:
+    print(f"{ele} is present in list.")

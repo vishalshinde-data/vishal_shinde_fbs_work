@@ -5,7 +5,7 @@ for i in range(1, len(a)):
     if(a[i] < min):
         smin = min
         min = a[i]
-    elif(a[i] < min):
-        smin = min
-print('Smallest number:', min)
-print('Second smallest number:', smin)            
+    elif(a[i] < smin):
+        smin = a[i]
+print("Minimum number:", min)
+print("Second Minimun number:", smin)            
