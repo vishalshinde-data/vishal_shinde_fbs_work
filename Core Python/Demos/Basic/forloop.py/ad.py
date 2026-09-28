@@ -1,4 +1,3 @@
-#Armstrong
 num = int(input('enter the number:'))
 
 temp = num
@@ -18,6 +17,4 @@ if(sum == num):
     print(f'{num} is an armstrong number.')
 else:
     print(f'{num} is not an armstrong number.')    
-
-
 
