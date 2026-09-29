@@ -8,3 +8,5 @@ for i in range(num):
     print(c,end = ' ')
     a = b
     b = c
+
+

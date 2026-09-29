@@ -1,23 +1,15 @@
 #Write a program to find sum of digit of number.
 
 
-def number(num):
+def sum_digit(num):
+    sum = 0
+    while(num > 0):
+        digit = num % 10
+        num = num // 10
+        sum = sum + digit
+    return sum
 
-    d1 = num % 10
-    num = num // 10
-
-    d2 = num % 10
-    num = num // 10
+num = int(input("enter thr number:"))
+result = sum_digit(num) 
+print("sum of digit:", result)   
     
-    d3 = num % 10
-    num = num // 10
-
-    sum = (d1 + d2 + d3)
-
-    num = int(input("Enter the number:"))
-
-    number(num)    
-    
-    
-
-
