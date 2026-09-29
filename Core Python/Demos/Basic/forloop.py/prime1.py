@@ -8,4 +8,3 @@ for num in range(2, n+1):
     else:
         print(num, end = ' ')    
 
-#HM: WAP to print first n prime numbers.        
