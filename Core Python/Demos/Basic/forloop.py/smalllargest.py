@@ -21,3 +21,11 @@ for i in numbers:
         largest = i
 
 print('largest number:', largest)        
+
+#method 2
+li = [10, 30, 3 , 20 ,50 ,60]
+min = li[0]
+for i in range(1, len(li)):
+    if(li[i] < min):
+        min = li[i]
+print("smallest number:", min)        

@@ -3,6 +3,6 @@ def sumofseries(n):
         return 0 
     else:
         return n + sumofseries(n-1)
-n = 5
+n = int(input("enter the number:"))
 res = sumofseries(n)
 print(res)    

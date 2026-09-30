@@ -7,3 +7,4 @@ def emp(id, name,sal = 20000, dept='backoffice'):
 emp(101,'vishal',50000,'IT')
 print('#############')    
 emp(102,'shiva',60000)
+
