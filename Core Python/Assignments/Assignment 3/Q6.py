@@ -9,6 +9,7 @@ if(selling_price > cost_price):
 
 elif(cost_price > selling_price):
     loss = cost_price - selling_price
+    print("loss=", loss)
 
 else:
     print('No profit,No loss')
