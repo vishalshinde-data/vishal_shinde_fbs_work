@@ -13,10 +13,12 @@ for i in li:
 li = [10, 23, 22, 45, 67, 88, 98, 15, 56]
 even = []
 odd = []
+
 for i in li:
     if(i % 2 == 0):
         even.append(i)
     else:
         odd.append(i)
-print("Even numbers:", even)                    
-print("Odd numbers:", odd)        
+
+print("Even Numbers:", even)
+print("Odd Numbers:", odd)
