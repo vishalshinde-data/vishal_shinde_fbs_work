@@ -1,5 +1,5 @@
 class Student:
-    
+    stcount = 0
     def __init__(self,frn,name,bname):
         self.frn=frn
         self.name=name
@@ -8,22 +8,20 @@ class Student:
 
     def display(self):
         print(f"FRN={self.frn}\tNAME={self.name}\tBNAME={self.bname}\tStudent Count={Student.stcount}")
+#Employee ends here
 
-class PlacedStudent:
+class PlacedStudent(Student):
     def __init__(self,frn,name,bname,cName):
         super().__init__(frn,name,bname)
         self.cName=cName
-    def setCname(self.cName):
-        selfcName=self.cName
-    def getName()    
+    def setCname(self,cname):
+        self.cname=cname
+    def getName(self):
+        return self.cname    
 
-            self.frn=frn
-            self.name=name
-            self.bname=bname
-            self.cname=cname
-    
     def display(self):
-        print(f"FRN={self.frn}\tNAME={self.name}\tBNAME={self.bname}\tStudent Count={Student.stcount}\tCNAME={self.cname}")
+        print(f"Cname={self.cname}")
+        super().display()
 
 s1 = Student(12, "Gaurav", "April")    
 s1 = Student(1, "Atharva", "July/Aug")    

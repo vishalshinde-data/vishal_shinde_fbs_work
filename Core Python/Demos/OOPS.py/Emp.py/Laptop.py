@@ -22,11 +22,3 @@ class Laptop:
     def display(self):
         print(f"Brand={self.brand}\tPrice={self.price}\tProcessor={self.processor}")
 
-l1 = Laptop("Asus", 60000, "i10")        
-l2 = Laptop("Mac", 92000, "i11")        
-l3 = Laptop("Dell", 45000, "i5")
-
-l1.display()
-l2.display()
-l3.display()
-
