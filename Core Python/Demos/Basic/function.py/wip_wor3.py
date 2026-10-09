@@ -18,3 +18,6 @@ def strong(n):
         print(f'{n} is not strong.')  
 num = int(input('enter number:'))                  
 strong(num)
+
+
+
