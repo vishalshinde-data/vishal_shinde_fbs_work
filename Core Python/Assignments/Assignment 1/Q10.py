@@ -1,8 +1,7 @@
 #Write a program to calculate area of an equilateral triangle.
 
-import math
-a = int(input('Enter side of triangle:'))
+side = int(input('Enter side of triangle:'))
 
-area = (math.sqrt(3) / 4) * a * a
+area = (1.732 / 4) * side * side
 
 print('Area of equilateral triangle:',area)

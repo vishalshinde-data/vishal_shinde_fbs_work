@@ -1,8 +1,7 @@
 #Find the volume of sphere.
-import math
 
-r = int(input('Enter radius:'))
+radius = float(input("Enter radius of sphere:"))
 
-volume = (4/3) * math.pi * r ** 3
+volume = (4 / 3) * 3.14 * radius * radius * radius
 
-print('volume of sphere:', volume)
+print("Volume of sphere:", volume)

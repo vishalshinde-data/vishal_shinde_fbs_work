@@ -1,9 +1,7 @@
 #Find the area of circumference of circle.
-import math
-r = int(input('Enter radius:'))
 
-area = math.pi * r * r
-circumference = 2 * math.pi * r
+radius = float(input("Enter radius of circle:"))
 
-print('area of circle:', area)
-print('circumference of circle:', circumference)
+circumference = 2 * 3.14 * radius
+
+print("Circumference of circle:", circumference)

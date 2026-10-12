@@ -1,8 +1,8 @@
 #WAP to calculate area of rectangle based on length and breadth.
 
-length = int(input('Enter length:'))
-breadth = int(input('Enter breadth:'))
+length = int(input("Enter the number:"))
+Breadth = int(input("Enter the number:"))
 
-area = length * breadth
+area = length * Breadth 
 
-print('area of rectangle:', area)
+print("Area of rectangle:", area)
