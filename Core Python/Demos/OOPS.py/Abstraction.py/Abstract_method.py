@@ -60,12 +60,12 @@ class Developer(Employee):
     def __str__(self):
         return super().__str__()+f"\tbonus={self.bonus}"
         
-        def calsal(self):
-            print(f"Final salary of developer={self.sal+self.bonus}")
+    def calsal(self):
+        print(f"Final salary of developer={self.sal+self.bonus}")
         
-        def display(self):
-            print(f"Bonus={self.bonus}\t")
-            return super().display() 
+    def display(self):
+        print(f"Bonus={self.bonus}\t")
+        return super().display() 
     #Class Developer ends Here...
     
 #e1 = Employee(1, "Rahul", 3333)

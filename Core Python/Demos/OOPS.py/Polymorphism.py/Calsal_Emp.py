@@ -20,7 +20,7 @@ class Employee:
         self.sal = newid   
 
     def calsal(self):
-            print(f"Final salary of Emloyee={self.sal}")
+        print(f"Final salary of Emloyee={self.sal}")
     
     def display(self):
         print(f"Id={self.id}\tName={self.name}\tSal={self.sal}")
@@ -52,7 +52,7 @@ class Developer(Employee):
         self.bonus=newbonus
 
     def calsal(self):
-            print(f"Final salary of developer={self.sal+self.bonus}")
+        print(f"Final salary of developer={self.sal+self.bonus}")
     
     def display(self):
         print(f"Bonus={self.bonus}\t")

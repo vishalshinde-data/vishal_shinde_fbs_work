@@ -19,7 +19,7 @@ class Flight:
     def setPrice(self,newprice):
         self.price=newprice
 
-    def calFlight(self):
+    def calflight(self):
         print(f"Final price of ticket={self.price}")    
 
     def display(self):
@@ -41,7 +41,7 @@ class DomesticFlight(Flight):
 
     def display(self):
         super().display() 
-        print(f"Tax={self.tax}")       
+        print(f"Tax={self.tax}\t")       
 #Domesticfkight class ensd here...
 
 class InternationalFlight(Flight):
@@ -62,7 +62,8 @@ class InternationalFlight(Flight):
         print(f"Charges={self.charges}")
 
 f1 = Flight(12, "Mumbai", 5000) 
-Df1 = DomesticFlight(123, "Bangalore", 10000, "500")
-If1 = InternationalFlight(223, "UAE", 30000, "2000") 
+df1 = DomesticFlight(123, "Bangalore", 10000, 5000)
+if1 = InternationalFlight(223, "UAE", 30000, 2000) 
 
-If1 = calFlight()
+if1.calFlight()
+df1.calflight()
