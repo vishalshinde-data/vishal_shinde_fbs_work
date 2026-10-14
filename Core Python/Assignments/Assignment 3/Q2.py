@@ -1,8 +1,12 @@
 #Write a program to input any alphabet and check whether it is vowel and consonants.
 
-ch = input('Enter the alphabet:')
+ch = input("Enter the vowel:")
 
-if(ch == 'aeiouAEIOU'):
-    print('it is vowel.')
+if(ch == "AEIOUaeiou"):
+    print("It is vowel")
 else:
-    print('it is consonant')    
+    print("It is not vowel")    
+
+
+
+    
