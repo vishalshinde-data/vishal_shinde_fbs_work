@@ -22,4 +22,5 @@ print(e1.getId())
 e1.setId(19)
 print(e1.getId())
 h1 = Hr(1,"Smriti",34643)
+print(h1)
                 

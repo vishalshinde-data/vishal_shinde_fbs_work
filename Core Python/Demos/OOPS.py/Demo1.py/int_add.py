@@ -33,7 +33,7 @@ class Time:
         return Time(thr,tmin,tsec)
 t1 = Time(12,33,55)
 t2 = Time(6,30,56)
-print(t1+t2)    
+print(t1+t2)  
 
 
 class Time:
@@ -52,6 +52,36 @@ class Time:
 t1 = Time(12,33,55)
 t2 = Time(6,30,56)
 a = t1 + t2
+    
+
+    
+class Time:
+    def __str__(self):
+        return f"{self.hr}:{self.min}:{self.sec}"
+    def __add__(self,other):
+        tsec=self.sec + other.sec
+        emin=tsec//60
+        tsec=tsec%60
+        tmin=self.min + other.min+emin
+        ehr=tmin//60
+        tmin=tmin%60
+        thr=self.hr + other.hr+ehr
+        return Time(thr,tmin,tsec)
+    def __add__(self,other):
+        tsec=self.sec + other.sec
+        emin=tsec//60
+        tsec=tsec%60
+        tmin=self.min + other.min+emin
+        ehr=tmin//60
+        tmin=tmin%60
+        thr=self.hr + other.hr+ehr
+        return Time(thr,tmin,tsec)
+
+t1 = Time(12,33,55)
+t2 = Time(6,30,56)
+t3 = Time(1,1,1)
+a = t1 + t2 + t3
+print(a)
     
 
     
