@@ -12,3 +12,16 @@ elif(ch >= '0' and ch <= '9'):
 
 else:
     print('it is a special character')
+
+
+
+ch = input("Enter the character:")
+
+if(ch >= "A" and ch <= "Z"):
+    print("Character is in uppercase")
+elif(ch >= "a" and ch <= "z"):
+    print("character is in lowercase")
+elif(ch >= "0" and ch <= "9"):
+    print(" character is a digit")        
+else:
+    print("it is a special character")    

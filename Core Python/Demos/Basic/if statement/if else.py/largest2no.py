@@ -1,12 +1,13 @@
 #find the largest number.
 
-a = int(input('enter first number:'))
-b = int(input('enter second number:'))
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
 
 if(a > b):
-    print('a is largest')
+    print("a is largest")
 else:
-    print('b is largest')    
+    print("b is largest")    
+
 
 # find the smallest number.
 
