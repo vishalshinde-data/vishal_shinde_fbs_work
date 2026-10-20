@@ -20,3 +20,15 @@ for i in range(num):
         print(i)  
 
 
+for i in range(1, 101):
+    if(i % 2 == 0):
+        print(i)
+
+
+num = int(input("enter the  number:"))
+for i in range(num):
+    if(i % 2 == 0):
+        print(i)
+
+
+                
