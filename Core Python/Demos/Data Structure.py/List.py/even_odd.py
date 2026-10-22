@@ -22,3 +22,16 @@ for i in li:
 
 print("Even Numbers:", even)
 print("Odd Numbers:", odd)
+
+
+li = [10, 23, 22, 45, 67, 88, 98, 15, 56]
+even = []
+odd = []
+for i in li:
+    if(i % 2 == 0):
+        even.append(i)
+    else:
+        odd.append(i)
+
+print("even number:", even)
+print("odd number:", odd)            
