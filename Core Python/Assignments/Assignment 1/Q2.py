@@ -6,3 +6,7 @@ Breadth = int(input("Enter the number:"))
 area = length * Breadth 
 
 print("Area of rectangle:", area)
+
+
+
+

@@ -7,3 +7,8 @@ discount_amount = (cp * discount) / 100
 sp = cp - discount_amount
 
 print('seeling price of book:', sp)
+
+
+
+
+

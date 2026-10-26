@@ -8,3 +8,4 @@ Total_second = (Hour * 3600) + (Minute * 60) + Second
 
 print("Total number of second:", Total_second)
 
+

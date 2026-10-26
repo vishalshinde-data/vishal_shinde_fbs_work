@@ -11,3 +11,6 @@ percentage = (total / 500) * 100
 
 print('total marks:', total)
 print('percentage:', percentage)
+
+
+

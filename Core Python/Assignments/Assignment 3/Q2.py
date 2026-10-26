@@ -2,11 +2,11 @@
 
 ch = input("Enter the vowel:")
 
-if(ch == "AEIOUaeiou"):
+if(ch in "AEIOUaeiou"):
     print("It is vowel")
 else:
     print("It is not vowel")    
 
 
 
-    
+

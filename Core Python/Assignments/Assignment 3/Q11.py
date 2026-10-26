@@ -1,6 +1,7 @@
-total = 0
+
 age = int(input('Enter the age:'))
 ticket = int(input('Enter the amount:'))
+total = 0
 
 for i in range(1, 6):
     if(age <= 12):
