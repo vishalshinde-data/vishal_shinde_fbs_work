@@ -8,3 +8,8 @@ else:
     print(f" {num} is prime number.")        
 
 
+
+
+
+
+
